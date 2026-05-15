@@ -41,7 +41,7 @@ The system runs **10 parallel processes** where a **master process** distributes
 - OpenMP support
 - Linux / WSL / Ubuntu environment
 
-Install dependencies (Ubuntu/WSL):
+### Install dependencies (Ubuntu/WSL):
 
 ```bash
 sudo apt update
@@ -50,6 +50,8 @@ sudo apt install openmpi-bin libopenmpi-dev
 ---
 
 ## 🔨 Compilation
+
+Compile the program using:
 
 ```bash
 mpicc -fopenmp Building_a_Parallel_System.c -o program
