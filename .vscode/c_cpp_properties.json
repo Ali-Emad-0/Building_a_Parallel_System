@@ -1,15 +1,15 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "WSL",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/lib/x86_64-linux-gnu/openmpi/include"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ]
+            "compilerPath": "/usr/bin/mpicc",
+            "cStandard": "c11",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4

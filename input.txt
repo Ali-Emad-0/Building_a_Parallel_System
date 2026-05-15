@@ -1,0 +1,10 @@
+This is line 1
+Parallel computing is powerful
+MPI distributes processes
+OpenMP creates threads
+Hybrid programming improves performance
+Operating systems manage resources
+High performance computing matters
+Load balancing increases efficiency
+Synchronization is important
+Final line of the example
