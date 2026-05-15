@@ -46,14 +46,14 @@ Install dependencies (Ubuntu/WSL):
 ```bash
 sudo apt update
 sudo apt install openmpi-bin libopenmpi-dev
-
+```
 ---
 
 ## 🔨 Compilation
 
 ```bash
 mpicc -fopenmp Building_a_Parallel_System.c -o program
-
+```
 ---
 
 ## ▶️ Run Program
@@ -62,3 +62,4 @@ The program requires 10 MPI processes.
 
 ```bash
 mpirun --oversubscribe -np 10 ./program
+```
