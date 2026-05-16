@@ -47,6 +47,7 @@ The system runs **10 parallel processes** where a **master process** distributes
 sudo apt update
 sudo apt install openmpi-bin libopenmpi-dev
 ```
+```
 ---
 
 ## 🔨 Compilation
@@ -55,6 +56,7 @@ Compile the program using:
 
 ```bash
 mpicc -fopenmp Building_a_Parallel_System.c -o program
+```
 ```
 ---
 
