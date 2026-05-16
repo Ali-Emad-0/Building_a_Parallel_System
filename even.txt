@@ -1,0 +1,5 @@
+High performance computing matters
+This is line 1
+MPI distributes processes
+Synchronization is important
+Hybrid programming improves performance

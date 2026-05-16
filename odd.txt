@@ -1,0 +1,4 @@
+Parallel computing is powerful
+OpenMP creates threads
+Final line of the exampleOperating systems manage resources
+Load balancing increases efficiency
